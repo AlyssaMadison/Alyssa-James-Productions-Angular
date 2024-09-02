@@ -1,0 +1,122 @@
+:host { 
+  display: contents; 
+}
+.header-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+}
+.header-container2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-navlink {
+  display: contents;
+}
+.header-image {
+  width: 225px;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.header-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: space-between;
+  }
+}
+@media(max-width: 482px) {
+  .header-container1 {
+    height: auto;
+  }
+  .header-header {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: var(--dl-space-space-unit);
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header-image {
+    top: -32px;
+    left: 0px;
+    right: 0px;
+    width: 249px;
+    height: 122px;
+    margin: auto;
+  }
+  .headerroot-class-name {
+    width: auto;
+    height: auto;
+  }
+  .headerroot-class-name2 {
+    height: auto;
+  }
+  .headerroot-class-name3 {
+    width: 100%;
+    height: auto;
+  }
+  .headerroot-class-name4 {
+    width: 100%;
+    height: auto;
+  }
+  .headerroot-class-name5 {
+    width: 100%;
+    height: auto;
+  }
+  .headerroot-class-name6 {
+    width: 100%;
+    height: auto;
+  }
+  .headerroot-class-name7 {
+    width: 100%;
+    height: auto;
+  }
+}
